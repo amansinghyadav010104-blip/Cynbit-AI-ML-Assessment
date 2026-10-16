@@ -18,13 +18,23 @@ The prototype accepts inquiry details and produces:
 
 ## Run the Application
 
-Open PowerShell in the `poc` directory and run:
+Open PowerShell in the project root and run:
 
 ```powershell
+cd poc
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 streamlit run app.py
+```
+
+## Run Tests
+
+Run from the `poc` directory:
+
+```powershell
 python -m unittest test_lead_intelligence.py -v
+```
+
 ## Limitations
-This is a rule-based demonstration prototype. It does not automatically send emails.
+This is a rule-based demonstration prototype using local/sample input. It has not been validated as a production lead-scoring model, does not connect to a production CRM, and does not automatically send emails. Human review is required before any real-world communication.
