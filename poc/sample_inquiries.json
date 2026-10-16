@@ -1,0 +1,17 @@
+[
+  {
+    "id": "SYN-001",
+    "inquiry": "We need an e-commerce website with payment integration and an AI customer-support chatbot. We want to launch within six weeks. Please share the process and estimated cost.",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-002",
+    "inquiry": "Our team needs help migrating our application to AWS next month. Please provide an estimate and explain the migration process.",
+    "synthetic": true
+  },
+  {
+    "id": "SYN-003",
+    "inquiry": "We are looking for SEO and digital marketing support for our new campaign. We have a budget of INR 50000 and want to start next week.",
+    "synthetic": true
+  }
+]
